@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(125, 212, 247);
+    
+}
+.perent{
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    background-color: rgb(125, 212, 247);
+    margin-top: 50px;
+    display: flex;
+    border-radius: 10px;
+   
+}
+
+.child{
+    
+    height: 100%;
+    width: 50%;
+    background-color: rgb(36, 156, 192);
+    border-radius: 10px;
+    color: azure;
+    
+    
+    
+    
+}
+.child h2{
+    padding: 20px;
+    font-family: cursive;
+}
+.child p{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p::first-letter{
+    font-size:30px;
+    color: black;
+
+}
+.button{
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child-1{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(245, 246, 247);
+    border-radius: 10px;
+    color: azure;
+}
+.child-1 h2{
+color: rgb(36, 156, 192);
+padding: 20px;
+font-family: cursive;
+}
+.child-1 input[type = "text"]{
+    padding: 1px;
+    margin-left: 5px;
+    border: 2px solid;
+    outline: none;
+    border-radius: 2px;
+    color: rgb(11, 12, 12);
+    border-color: azure;
+}
+.child-1 input:focus{
+    border-top-color: rgb(36, 156, 192);
+    
+}
+.child-2 input[type = "email"]{
+    
+margin-top: 50px;
+border: 1px solid;
+outline: none;
+border-radius: 3px;
+margin-left: 5px;
+width: 330px;
+border-top-color: rgb(36, 156, 192);
+padding: 5px;
+
+
+}
+.child-2 input:focus{
+    border-radius: 10px;   
+}
+
+.child-3 input[type = "password"]{
+    margin-top: 50px;
+    border: 1px solid;
+    margin-left: 7px;
+    border-top-color: rgb(36, 156, 192);
+    border-radius: 5px;
+}
+.child-3 input:focus{
+    border: 1px solid;
+    background-color: rgb(36, 156, 192);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+.child-1 .link{
+    color: black;
+    margin-top: 40px;
+    margin-left: 45px;
+
+}
+.child-1 .link a{
+    color: rgb(36, 156, 192);
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.name{
+    padding: 10px;
+    background-color: rgb(36, 156, 192);
+    color: azure;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100px;
+    font-family: cursive;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
+
+
+
+
