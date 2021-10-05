@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.grand-p{
+  
+    height: 58px;
+    list-style: none;
+    
+
+
+}
+.parent-1{
+    display: flex;
+    justify-content: space-around;
+    width: 70vh;
+    font-size: 72%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 45px;
+    font-family: sans-serif;
+    color: black;
+    
+   
+}
+
+.taxt-size{
+    display: flex;
+    justify-content: space-around;
+    font-size: 75%;
+    cursor: pointer;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-left: 650px;
+    margin-top: -12px;
+    transition: 0.5s;
+    
+    
+}
+.taxt-size:hover{
+    color: rgb(231, 49, 49);
+    
+}
+.taxt-size-1{
+    font-size: 75%;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-top: -15px;
+    margin-left: 885px;
+    
+}
+.h1:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s; 
+}
+.h2:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s;
+}
+.h3:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s;
+}
+.h4:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s;
+}
+
+.grand-p-1{
+    height: 30px;
+    list-style: none;
+}
+.grand-p-1 img{
+    height: 42px;
+    margin-left: 60px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.parent-2{
+    list-style: none;
+    justify-content: space-around;
+    width: 60vh;
+    display: flex;
+    font-size: 75%;
+    font-family: sans-serif;
+    margin-left: 275px;
+    margin-top: -25px;
+    cursor: pointer;
+ 
+}
+.taxt-size-2{
+    font-size: 198%;
+    margin-left: 690px;
+    margin-top: -32px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.733);
+    cursor: pointer;
+}
+.taxt-size-2:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s;
+}
+.h5:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s; 
+}
+.h6:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s;
+}
+.h7:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s;
+}
+.h8:hover{
+    color: rgb(231, 49, 49);
+    transition: 0.5s;
+}
+.box{
+    padding: 10px 1px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.925);
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.container-1 img{
+    height: 560px;
+    margin-left: -200px;
+    
+}
+.taxt-front{
+    font-family: sans-serif;
+    margin-top: -495px;
+    margin-left: 80px;
+    font-size: 30px;
+    cursor: context-menu;
+}
+.text-front-1{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 12px;
+    cursor: context-menu; 
+}
+.text-front-2{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 2px;
+    cursor: context-menu;
+}
+.input-box{
+    background-color: white;
+    height: 450px;
+    width: 370px;
+    margin-left: 600px;
+    margin-top: -80px;
+    position: absolute;
+    border-radius: 9px;
+}
+.text-block{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+.text-1{
+    height: 45px;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    
+} 
+.text-2{
+    height: 45px;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    
+} 
+.text-3{
+    height: 45px;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    
+} 
+.text-4{
+    margin-top: 15px;
+    margin-left: 22px;
+}
+.text-5{
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 0.415);
+    margin-top: -18px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.text-6{
+    height: 45px;
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+}
+.input-box-2{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.text-7{
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
+    font-size: x-small;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.container-1 .text-7 a{
+    text-decoration: none;
+    color: red;
+}
+.slidershow{
+    margin-top: 400px;
+    overflow: hidden;
+}
+.middle{
+  top: 50%;
+}
+.navigation{
+    position: absolute;
+    display: flex;
+
+}
+.bar{
+    
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 10px;
+    width: 10px;
+}
+.bar:hover{
+    background: rgb(19, 6, 6);
+    transition: 1s;
+}
+input[name="r"]{
+    
+    
+
+}
+.slides{
+    
+    display: flex;
+}
+.slide{
+    transition: 0.6s;
+    width: 20%;
+    
+}
+.slide img{
+    height: 200px;
+    width: 150px;
+    margin: 5px; 
+}
+
+
